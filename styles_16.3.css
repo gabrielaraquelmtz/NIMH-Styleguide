@@ -47,13 +47,16 @@ Sets up styles for .content-container
 
 /* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 .row-container-no-wrap {
-  width: 100%;
+  width: 700px;
+  height: 180px;
   display: flex;
   /* sets spacing between elements in container */
   justify-content: space-between;
   flex-wrap: none;
   margin-top: 15px;
   margin-bottom: 15px;
+  background-image: url(file:///Users/gabrielamartinez/Documents/GitHub/NIMH-Styleguide/images/NIMHlogo.jpg);
+  background-repeat: no-repeat;
 }
 
 .row-container {

@@ -31,7 +31,8 @@ a:hover {
 }
 
 .sidebar-logo {
-  width: 200px;
+  background-image: url(file:///Users/gabrielamartinez/Documents/GitHub/NIMH-Styleguide/images/NIMHlogo.jpg);
+  width: 300px;
 }
 
 .center p {
