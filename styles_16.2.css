@@ -31,7 +31,7 @@ a:hover {
 }
 
 .sidebar-logo {
-  width: 150px;
+  width: 200px;
 }
 
 .center p {
@@ -44,7 +44,7 @@ Sets up styles for logos
 ============================
 */
 
-.section-logo {
+.logopic {
   width: 425px;
   height: 100%;
 }
