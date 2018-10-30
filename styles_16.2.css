@@ -14,17 +14,19 @@ Sets up styles for sidebar / navigation containers
 ====================================
 */
 nav a {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'chaparral-pro-caption', serif;
+  font-style: normal;
+  font-size: 20px;
   padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 a {
-  color: blue;
+  color: rgb(0, 137, 250);
   transition: color 0.25s;
 }
 
 a:hover {
-  color: magenta;
+  color: rgb(51, 51, 102);
   font-weight: bold;
 }
 
@@ -55,9 +57,10 @@ Sets up styles for typography
 
 /* Sets up font-face for body copy */ 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'chaparral-pro-caption', serif;
   color: black;
   line-height: 1.4em;
+  font-size: 20px;
 }
 
 /* Sets up font-face for headers */ 
@@ -67,8 +70,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
-  color: navy;
+  font-family: 'Antique-Olive-Bold', arial;
+  color: rgb(51, 51, 102);
   line-height: 1em;
 }
 
@@ -94,11 +97,11 @@ h6 {
 }
 
 .type-faces-01 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Antique-Olive-Bold', arial;
 }
 
 .type-faces-02 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Antique-Olive-Bold', arial;
 }
 
 
@@ -123,27 +126,28 @@ Sets up styles for colors
 
 /* Makes colors */ 
 .color-red {
-  background: red;
+  background: #d84173;
 }
 
 .color-orange {
-  background: orange;
+  background: #f36e33;
+  opacity: 75%;
 }
 
 .color-yellow {
-  background: yellow;
+  background: #f6f067; 
 }
 
 .color-green {
-  background: green;
+  background:  #198bb7;
 }
 
 .color-blue {
-  background: blue;
+  background: #66d89c;
 }
 
 .color-purple {
-  background: indigo;
+  background: rgb(51, 51, 102);
 }
 
 .color-black {
@@ -151,7 +155,7 @@ Sets up styles for colors
 }
 
 .color-gray {
-  background: gray;
+  background: #f2f2f2;
 }
 
 /* 
@@ -166,25 +170,25 @@ Sets up styles for button
   border-radius: 4px;
   padding: 5px;
   margin: 20px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Antique-Olive-Bold', arial;
   font-weight: 600;
 }
 
 .button-normal {
-  background: rgb(51, 51, 102);
+  background: #198bb7;
   color: rgb(255, 255, 255);
 }
 
 .button-hover {
-  background: rgb(215, 215, 215);
-  color: rgb(51, 51, 102);
+  background: rgb(51, 51, 102);
+  color: #ffffff;
 }
 
 .button-pressed,
 .button-loading {
-  background: rgb(215, 215, 215);
-  color: rgb(51, 51, 102);
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  background: rgb(51, 51, 102);
+  color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .button-disabled {
@@ -221,7 +225,7 @@ https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fo
 }
 
 .social-icons i:hover {
-  color: magenta;
+  color: rgb(0, 204, 255);
 }
 
 /* 
